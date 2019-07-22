@@ -7,7 +7,7 @@ $("body").css("height",document.body.clientHeight+"px");
 			            Audio.play();
 			        }, false);
 			    }
-			$(function(){var mySwiper = new Swiper('.swiper-container', {
+			var mySwiper = new Swiper('.swiper-container', {
 				direction: 'vertical',
 				initialSlide :0,
 				autoplay:false,
@@ -117,7 +117,7 @@ $("body").css("height",document.body.clientHeight+"px");
 					}
 
 				}
-			});});
+			});
 
 			/*diy换装*/
 			function  setRole(index,type){				
