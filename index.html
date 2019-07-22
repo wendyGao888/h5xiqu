@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>戏曲</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="yes" name="apple-touch-fullscreen">
+		<meta content="telephone=no,email=no" name="format-detection">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link id="styles" rel="stylesheet" type="text/css" href="css/index.css">		
+		<script type="text/javascript" src="js/rem.js" ></script>
+	</head>
+	<body>
+		<div class="page">			
+			<audio loop id="audio" preload="auto">
+			    <source src="music/bgm.mp3" type="audio/mp3">
+			    您的浏览器不支持 audio 标签。
+			</audio>
+			<a  id="music" class="music" href="javascript:;"></a>
+			<div id="post">
+				<img id="post-img" alt="">
+			</div>
+			<div class="content">
+				<div class="main-box screen flex">
+					<img class="bg" src="imgs/screen-bg.png" alt="" />
+					<img class="left"  src="imgs/screen-l.png" alt="" />
+					<img class="right" src="imgs/screen-r.png" alt="" />
+				</div>
+				<div class="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide silde-loading">
+							<div class="main-box">
+								<div class="meihua1"><img src="imgs/flower-l.png"></div>
+								<div class="meihua2"><img src="imgs/flower-r.png"></div>
+								<div class="lianpu">
+									<div class="lianpu1 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="3s"><img src="imgs/lp1.png"></div>
+									<div class="lianpu2 ani" swiper-animate-effect="fadeOut" swiper-animate-duration="3s"><img src="imgs/lp2.png"></div>
+								</div>
+								<div class="txt-loading">加载中</div>
+							</div>
+						</div>
+						<div class="swiper-slide  silde-guide">
+							<div class="main-box">
+								<div class="meihua1"><img src="imgs/flower-l.png"></div>
+								<div class="meihua2"><img src="imgs/flower-r.png"></div>
+								<div class="guide-text">
+									<p></p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide  silde-main">
+							<div class="main-box">
+								<div class="meihua1"><img src="imgs/flower-l.png"></div>
+								<div class="meihua2"><img src="imgs/flower-r.png"></div>
+								<div class="start">
+									<div class="start-btn"><a href="javascript:;"><img src="imgs/btn-main.png"/></a></div>
+									<div class="start-text"><img src="imgs/btn-text.png"/></div>
+								</div>
+							</div>
+
+						</div>
+						<div class="swiper-slide silde-sex">
+							<div class="main-box">
+								<div class="fl-bottom"><img src="imgs/fl-bottom.png"></div>
+								<div class="meihua1"><img src="imgs/flower-l.png"></div>
+								<div class="meihua2"><img src="imgs/flower-r.png"></div>
+								<div class="sex">
+									<div class="boy" swiper-animate-effect="fadeOutLeft"  swiper-animate-delay="0.3s" swiper-animate-duration="1s"><a href="javascript:;"><img src="imgs/bg-nan.png"></a></div>
+									<div class="girl" swiper-animate-effect="fadeOutRight"  swiper-animate-delay="0.3s"  swiper-animate-duration="1s"><a href="javascript:;"><img src="imgs/bg-nv.png"></a></div>
+								</div>
+								<div class="sex-text"><img src="imgs/diy-text.png"></div>
+							</div>
+						</div>
+						<div class="swiper-slide silde-diy"  swiper-animate-effect="fadeOut">
+							<div class="main-box">
+								<div class="fl-bottom"><img src="imgs/fl-bottom.png"></div>
+								<div class="meihua1"><img src="imgs/flower-l.png"></div>
+								<div class="meihua2"><img src="imgs/flower-r.png"></div>
+								<div class="container flex">
+								<div class="diy-box">
+									<img class="img-bg-box" src="imgs/bj3.png"/>
+									<div class="box-person">
+										<img class="features eyes on" id="eyes" src="imgs/boy/eyes-1.png"/>
+										<img class="features mouse on" id="mouse" src="imgs/boy/mouse-1.png"/>
+										<img class="features person  on" id="clothe" src="imgs/boy/clothe-1.png"/>
+									</div>
+									<img class="img-diy-box" src="imgs/bj2.png"/>
+								</div>
+								<!-- diy tbns -->
+								<div class="btn-box">
+									<div class="btn-line flex">
+										<img src="imgs/icon-eye.png"/>
+										<div class="btns flex eyes" type="eyes">
+											<a class="check" href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+										</div>
+									</div>
+									<div class="btn-line flex">
+										<img src="imgs/icon-mouse.png"/>
+										<div class="btns flex " type="mouse">
+											<a class="check" href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+										</div>
+									</div>
+									<div class="btn-line flex">
+										<img src="imgs/icon-clothe.png"/>
+										<div class="btns flex eyes" type="clothe">
+											<a class="check" href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+											<a href="javascript:;"></a>
+										</div>
+									</div>
+								</div>
+								<a href="javascri:;" class="ensure-btn">
+									<img src="imgs/ensure.png"/>
+								</a>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="swiper-slide slide-share " id="share">							
+							<div class="share-box flex">
+
+							<div class="pop pop-intro" >
+								 <a class="close" href="javascript:;"></a>
+								<img id="intro" src="imgs/boy/intro1.png" alt="" />
+							</div>
+
+							<div class="pop  pop-more" >
+								  <a class="close" href="javascript:;"></a>
+								 <div class="more-bg">
+								 	<div class="scroll-box"><img id="more" src="imgs/more.png" alt="" /></div>
+								 </div>
+
+							</div>
+
+
+
+							<div class="figure">
+								<img id="figure" src="imgs/boy/p1.jpg" alt="" />
+								<p class="txt vertical-text">您的戏装扮相</p>
+
+							</div>
+							<div class="share-bottom flex">
+								<div class="share_btns flex">
+									<a class="share_menu"  target="intro"> <img src="imgs/share_menu1.png" alt="" /></a>
+									<a class="share_menu" target="more"> <img src="imgs/share_menu2.png" alt="" /></a>
+									<a class="share_menu" target="post"> <img src="imgs/share_menu3.png" alt="" /></a>
+								</div>
+								<div class="share_info  flex clearfix">
+
+									<div>										
+										<p>识别图中二维码</p>
+										<p>客串体验你的戏曲装扮吧！</p>
+									</div>	
+									<img src="imgs/qr.png" alt="">							
+								    
+								</div>
+
+
+							</div>
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+		<input type="hidden" name="perSex" id="perSex" value="0">
+		<input type="hidden" name="perClothe" id="perClothe" value="0">
+		<input type="hidden" name="mosicBtn" id="mosicBtn" onclick="playAudio();">
+		<script src="js/jquery.min.js"></script>
+		<!-- Swiper JS -->
+		<script src="js/swiper.min.js"></script>
+		<script src="js/swiper.animate.min.js"></script>
+		<script src="js/html2canvas.js"></script>
+		<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
+</html>

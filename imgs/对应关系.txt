@@ -1,0 +1,30 @@
+
+--boy--
+
+clothe-1    柳梦梅
+
+clothe-2   包公
+
+clothe-3  鲁智深
+
+clothe-4  许仙
+
+clothe-5  钟馗
+
+clothe-6  诸葛亮
+
+--girl--
+
+clothe-1   杜丽娘
+
+clothe-2   白素贞
+
+clothe-3  孟姜女
+
+clothe-4  佘太君
+
+clothe-5  卓文君
+
+clothe-6  王宝钏
+
+
